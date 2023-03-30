@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../colors.dart';
+import '../widgets/contacts_list.dart';
 
 class MobileScreenLayout extends StatelessWidget {
   const MobileScreenLayout({super.key});
@@ -56,7 +57,7 @@ class MobileScreenLayout extends StatelessWidget {
             ],
           ),
         ),
-       
+        body: const ContactsList(),
       ),
     );
   }
